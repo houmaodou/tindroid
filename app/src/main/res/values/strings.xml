@@ -1,7 +1,7 @@
 <resources>
     <string name="asset_statements" translatable="false">[{ \"include\": \"https://api.tinode.co/.well-known/assetlinks.json\" }]</string>
     <string name="tinode_url" translatable="false">https://github.com/tinode/</string>
-    <string name="default_host_name" translatable="false">10.0.2.2:6060</string>
+    <string name="default_host_name" translatable="false">123.56.100.207:6060</string>
 
     <string name="app_name" translatable="false">Tindroid</string>
     <string name="app_name_full" translatable="false">Tindroid Messenger</string>

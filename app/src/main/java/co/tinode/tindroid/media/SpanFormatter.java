@@ -462,6 +462,7 @@ public class SpanFormatter implements Drafty.Formatter<SpanFormatter.TreeNode> {
                 spanned.append(text);
             } else if (children != null) {
                 for (TreeNode child : children) {
+                    if(child!=null)
                     spanned.append(child.toSpanned());
                 }
             }

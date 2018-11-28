@@ -54,15 +54,15 @@ public class Cache {
             TindroidApp.retainTinodeCache(sTinode);
         }
 
-        FirebaseInstanceId
-                .getInstance()
-                .getInstanceId()
-                .addOnSuccessListener(new OnSuccessListener<InstanceIdResult>() {
-            @Override
-            public void onSuccess(InstanceIdResult instanceIdResult) {
-                sTinode.setDeviceToken(instanceIdResult.getToken());
-            }
-        });
+//        FirebaseInstanceId
+//                .getInstance()
+//                .getInstanceId()
+//                .addOnSuccessListener(new OnSuccessListener<InstanceIdResult>() {
+//            @Override
+//            public void onSuccess(InstanceIdResult instanceIdResult) {
+//                sTinode.setDeviceToken(instanceIdResult.getToken());
+//            }
+//        });
         return sTinode;
     }
 
